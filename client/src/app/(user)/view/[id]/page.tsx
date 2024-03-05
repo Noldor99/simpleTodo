@@ -10,10 +10,11 @@ import { Switch } from '@/components/ui/switch'
 
 import { cn } from '@/lib/utils'
 
-import { HigherTodoForm } from '../../(main)/[id]/_components/HigherTodoForm'
+ 
 import FilterSelect from './_components/FilterSelect'
 import { SectionTask } from './_components/SectionTask'
 import TodoCard from './_components/TodoCard'
+import { HigherTodoForm } from '../../(main)/[id]/_components/HigherTodoForm'
 
 const arrSort = ['all', 'completed', 'notcompleted']
 
