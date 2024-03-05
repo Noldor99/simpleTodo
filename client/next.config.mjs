@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       { hostname: 'localhost' },
-      { hostname: 'https://simpletodo-9jyz.onrender.com/' },
+      { hostname: 'simpletodo-9jyz.onrender.com' },
       { hostname: 'loremflickr.com' },
     ],
   },
