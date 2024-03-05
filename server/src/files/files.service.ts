@@ -79,7 +79,7 @@ export class FilesService {
 
       const baseUrl = isDevelopment
         ? `http://localhost:${process.env.PORT}/api`
-        : 'https://v3v.dzencode.net/api'
+        : 'https://simple-todo-coral-six.vercel.app/api'
 
       return `${baseUrl}/${fileType}/${fileName}`
     } catch (e) {
